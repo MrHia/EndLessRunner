@@ -49,6 +49,7 @@ public class Player : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Land");
         }
     }
+
     void Jump()
     {
         FindObjectOfType<AudioManager>().Play("Jump");
